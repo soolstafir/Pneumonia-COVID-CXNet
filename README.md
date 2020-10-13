@@ -2,6 +2,8 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/armiro/COVID-CXNet/blob/master/LICENSE)
 ![license](https://img.shields.io/badge/development-100%25-yellow?style=flat-square)
 
+The original project is [**here**](https://github.com/armiro/COVID-CXNet)
+
 Detecting the novel coronavirus pneumonia in frontal chest X-ray images using transfer learning of CheXNet with a focus on Grad-CAM visualiztions. 
 
 - Preprint available on arXiv: [COVID-CXNet](https://arxiv.org/abs/2006.13807)
