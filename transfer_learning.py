@@ -1,4 +1,5 @@
-import glob, numpy as np, matplotlib.pyplot as plt, cv2.cv2 as cv2, seaborn as sns
+import glob, numpy as np, matplotlib.pyplot as plt, seaborn as sns
+import cv2
 import keras.callbacks as cb
 from keras.applications import ResNet50, DenseNet121, NASNetMobile, Xception
 from keras.preprocessing.image import load_img, img_to_array, ImageDataGenerator

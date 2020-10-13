@@ -1,4 +1,5 @@
-import os, glob, numpy as np, shutil, matplotlib.pyplot as plt, cv2.cv2 as cv2, seaborn as sns
+import os, glob, numpy as np, shutil, matplotlib.pyplot as plt, seaborn as sns
+import cv2
 import tensorflow as tf, keras
 
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping

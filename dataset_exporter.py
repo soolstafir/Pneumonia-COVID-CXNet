@@ -1,5 +1,6 @@
 from tensorflow.keras.preprocessing.image import load_img, img_to_array, ImageDataGenerator
-import glob, numpy as np, matplotlib.pyplot as plt, cv2.cv2 as cv2
+import glob, numpy as np, matplotlib.pyplot as plt
+import cv2
 
 
 def collect_images_from(path, exclude_early_stages=True, exclude_pediatrics=True):

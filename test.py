@@ -1,5 +1,6 @@
 from keras.preprocessing.image import load_img, img_to_array
-import cv2.cv2 as cv2, numpy as np
+import numpy as np
+import cv2
 from keras.applications import DenseNet121
 from keras.layers import Dense, GlobalAveragePooling2D
 from keras import Model

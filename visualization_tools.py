@@ -2,7 +2,11 @@
 # import matplotlib.cm as cm
 from lime import lime_image
 from tensorflow.keras import Model
-import tensorflow as tf, numpy as np, cv2.cv2 as cv2
+import numpy as np
+import tensorflow as tf
+import cv2
+
+# import cv2.cv2 as cv2
 
 # deprecated GradCAM function
 # def generate_heatmap(model, input_image):

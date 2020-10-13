@@ -1,7 +1,8 @@
 # from main import base_model, get_last_weights
 from tensorflow.keras.models import model_from_json, load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-import numpy as np, glob, cv2.cv2 as cv2, matplotlib.pyplot as plt, copy
+import numpy as np, glob, matplotlib.pyplot as plt, copy
+import cv2
 from skimage.segmentation import mark_boundaries
 from visualization_tools import generate_explanation, GradCAM
 from BEASF import BEASF
